@@ -1,0 +1,38 @@
+{
+  "name": "calcmultiplica",
+  "version": "1.0.0",
+  "description": "Microservicio para multiplicar variables",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "supertest": "^6.0.1"
+  },
+  "scripts": {
+    "start": "node ./src/index.js",
+    "test": "jest --collectCoverage --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucianomella/calcmultiplica.git"
+  },
+  "keywords": [
+    "multiplica",
+    "kafka",
+    "node"
+  ],
+  "author": "Luciano Mella",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/lucianomella/calcmultiplica/issues"
+  },
+  "homepage": "https://github.com/lucianomella/calcmultiplica#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  }
+}
