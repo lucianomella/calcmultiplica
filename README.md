@@ -89,3 +89,10 @@ Ejemplo:
 ~~~
 http://localhost/coverage
 ~~~
+
+## DOCKER
+
+~~~
+docker build -t calcmultiplica ./
+docker run --publish 3003:3001 --detach --name calcmultiplica calcmultiplica
+~~~
